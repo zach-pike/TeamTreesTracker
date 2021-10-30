@@ -1,0 +1,13 @@
+{
+  "name": "tslogger",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@types/ms": "^0.7.31",
+    "@types/node": "^16.11.6",
+    "ms": "^2.1.3",
+    "node-fetch": "^3.0.0"
+  }
+}
