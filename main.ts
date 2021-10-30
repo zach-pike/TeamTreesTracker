@@ -10,4 +10,4 @@ setInterval(async () => {
     logfile += `${Date.now()},${resp.count}\n`;
 
     await fs.writeFile("logfile.txt", logfile);
-}, ms("10s"))
+}, ms("30m"))
